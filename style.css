@@ -5,3 +5,20 @@ html {
 *, *:before, *:after {
     box-sizing : inherit;
 }
+
+body {
+    background-color: #172121;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: #F1FFE7;
+    border-radius: 16px;
+    max-width: 624px;
+    margin: 16px;
+    padding: 32px;
+    display: flex;
+}
