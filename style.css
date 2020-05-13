@@ -12,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
@@ -38,6 +39,16 @@ body {
 
 .header__title, .header__subtitle {
     margin: 0;
+}
+
+.header__title {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.header__subtitle {
+    font-size: 18px;
+    font-family: 'Iceberg', cursive;
 }
 
 .photo {
