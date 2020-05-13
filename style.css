@@ -27,6 +27,14 @@ body {
     margin: 0;
 }
 
+.header {
+    margin-bottom: 24px;
+}
+
+.header__title, .header__subtitle {
+    margin: 0;
+}
+
 .photo {
     margin-right: 32px;
 }
