@@ -25,6 +25,11 @@ body {
 
 .about__describe {
     margin: 0;
+    line-height: 22px;
+}
+
+.about__describe--media {
+    margin-top: 16px;
 }
 
 .header {
@@ -37,4 +42,6 @@ body {
 
 .photo {
     margin-right: 32px;
+    width: 168px;
+    height: 232px;
 }
