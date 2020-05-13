@@ -2,8 +2,10 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
-    box-sizing : inherit;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -16,7 +18,7 @@ body {
 }
 
 .main {
-    background-color: #F1FFE7;
+    background-color: #f1ffe7;
     border-radius: 16px;
     max-width: 624px;
     margin: 16px;
@@ -37,7 +39,8 @@ body {
     margin-bottom: 24px;
 }
 
-.header__title, .header__subtitle {
+.header__title,
+.header__subtitle {
     margin: 0;
 }
 
@@ -48,8 +51,8 @@ body {
 
 .header__subtitle {
     font-size: 18px;
-    font-family: 'Iceberg', cursive;
-    color: #5A5A66;
+    font-family: "Iceberg", cursive;
+    color: #5a5a66;
 }
 
 .photo {
@@ -60,7 +63,7 @@ body {
 
 .strong {
     font-weight: normal;
-    color: #FF4000;
+    color: #ff4000;
 }
 
 .about__link {
