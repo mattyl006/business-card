@@ -22,3 +22,11 @@ body {
     padding: 32px;
     display: flex;
 }
+
+.about__describe {
+    margin: 0;
+}
+
+.photo {
+    margin-right: 32px;
+}
