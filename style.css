@@ -49,10 +49,21 @@ body {
 .header__subtitle {
     font-size: 18px;
     font-family: 'Iceberg', cursive;
+    color: #5A5A66;
 }
 
 .photo {
     margin-right: 32px;
     width: 168px;
     height: 232px;
+}
+
+.strong {
+    font-weight: normal;
+    color: #FF4000;
+}
+
+.about__link {
+    text-decoration: none;
+    color: #134611;
 }
