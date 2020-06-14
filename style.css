@@ -59,6 +59,7 @@ body {
     margin-right: 32px;
     width: 168px;
     height: 232px;
+    flex-shrink: 0;
 }
 
 .strong {
