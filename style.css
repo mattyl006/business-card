@@ -17,6 +17,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .main {
     background-color: #f1ffe7;
     border-radius: 16px;
@@ -24,6 +25,12 @@ body {
     margin: 16px;
     padding: 32px;
     display: flex;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .main {
+        margin-top: 128px;
+    }
 }
 
 .about__describe {
