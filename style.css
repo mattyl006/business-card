@@ -71,10 +71,17 @@ body {
 
 .strong {
     font-weight: normal;
-    color: #ff4000;
+    color: #b80c09;
 }
 
 .about__link {
     text-decoration: none;
     color: #134611;
+    transition: font-weight .3s linear;
+    transition: transform .3s linear;
+}
+
+.about__link:hover {
+    font-weight: bold;
+    transform: scaleX(1.05);
 }
